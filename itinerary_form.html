@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Itinerary form details!
+	</title>
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <style type="text/css">
+		.card{
+			margin: 100px;
+			z-index: 10;
+		}
+		.footer-social{
+			width: 3.65%;
+			margin: 0.67%;
+
+		}
+		body{
+			background-color: #ffeab7;
+		}
+		nav{
+			background-color: burlywood;
+		}
+		.page-footer{
+			background-color: burlywood;
+		}
+		.header{
+			color: #cbb887;
+			margin: 100px;
+		}
+		.modal-overlay{
+			background:white;
+		}
+		.modal{
+			opacity: 0.5;
+		}
+		.brand-logo{
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Rajasthan Tourism</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="itinerary.php">Customised Itinerary</a></li>
+        <li><a href="aboutus.html">About us!</a></li>
+      </ul>
+    </div>
+</nav>
+<div class="col s12 m7">
+    <center><h2 class="header">Day 1</h2></center>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="images/card-background-1.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          	<div class="row">
+			    <form class="col s12">
+			       <div class="input-field col s12" style="margin: 25px;">
+				    <select>
+				      <option value="" disabled selected>Choose your option</option>
+				      <option value="Jaipur">Jaipur </option>
+				      <option value="Jaisalmer">Jaisalmer </option>
+				      <option value="Udaipur">Udaipur </option>
+				    </select>
+				    <label>City</label>
+				  </div>
+				  <div class="input-field col s12" style="margin: 25px;"">
+				    <select multiple>
+				      <option value="" disabled selected>Choose your option</option>
+				      <option value="hawamahal">Hawa Mahal</option>
+				      <option value="citypalace">City Palace</option>
+				      <option value="nahargarhfort">Nahargarh Fort</option>
+				    </select>
+				    <label>Places to visit</label>
+				  </div>
+				  <br><br><br><br>
+				  <center><button class="waves-effect waves-light btn modal-trigger" type="submit" name="action">Submit
+				    <i class="material-icons right">send</i></button></center>
+
+			   </form>
+			</div>
+
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Follow Us for latest updates and join the conversation</h5>
+                <p class="grey-text text-lighten-4">Nodal Officer Website 
+				Ms. Shikha Saxena, ACP (Dy. Dir.)<br>
+
+				For suggestions & feedback relating to website, please write to it-dot@rajasthan.gov.in, acpdd-dot@rajasthan.gov.in or call 0141-5155110.<br>
+
+				For any general queries or details, please mail us at namaste@rajasthan.gov.in or call 91-141-5110598</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Follow us at!</h5>
+                <ul>
+                  <li><a class="footer-social" href="https://www.facebook.com/rajasthantourism" target="_blank">
+            <img src="icon/fb-icon.png" alt="Facebook" width="50px" height="50px"></a></li>
+                  <li><a class="footer-social" href="https://www.twitter.com/my_rajasthan" target="_blank">
+        <img src="icon/tt-icon.png" alt="Twitter" width="50px" height="50px"></a></li>
+                  <li><a class="footer-social" href="https://www.instagram.com/rajasthan_tourism/" target="_blank">
+        <img src="icon/int-icon.png" alt="Instagram" width="50px" height="50px"></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+             Copyrights &copy; 2017
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+        <script type="text/javascript">
+        	 $('select').material_select('destroy');
+	         $(document).ready(function() {
+		     $('select').material_select();
+		     });
+        </script>
+</body>
+</html>
