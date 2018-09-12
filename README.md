@@ -31,4 +31,4 @@ Thus, making the processes much easier and fun.
 ### Team Members:
 + Saideep Dicholkar
 + Harsh Shah
-+ Deveansh Shah
++ Devansh Shah
