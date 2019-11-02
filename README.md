@@ -29,6 +29,8 @@ Thus, making the processes much easier and fun.
 
 
 ### Team Members:
-+ Saideep Dicholkar
++ [Saideep Dicholkar](https://in.linkedin.com/in/saideep-dicholkar)
 + Harsh Shah
-+ Devansh Shah
++ [Devansh Shah](https://in.linkedin.com/in/devansh-shah)
+
+### [Demo of the Itinerary Planner and Travel Guru](https://www.youtube.com/watch?v=tE1h0knRiEU)
